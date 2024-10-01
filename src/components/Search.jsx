@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import styles from "./Search.module.css";
+
 const URL = "https://api.spoonacular.com/recipes/complexSearch";
 const API_KEY = import.meta.env.VITE_API_KEY;
 
@@ -13,8 +15,9 @@ export const Search = ({ recipeData, setRecipeData }) => {
         fetchRecipe();
     }, [query]);
     return (
-        <div>
+        <div className={styles.searchContainer}>
             <input
+                className={styles.input}
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
