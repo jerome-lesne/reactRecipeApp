@@ -1,0 +1,36 @@
+.recipeContainer {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 0.5em;
+    border: 1px solid lightgrey;
+}
+
+.recipeTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.recipeImg {
+    width: 70%;
+}
+
+.recipeBtn {
+    width: 70%;
+    padding: 0.5em;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    background: lightblue;
+    opacity: 0.7;
+}
+
+.recipeBtn:hover {
+    cursor: pointer;
+    opacity: 1;
+}
