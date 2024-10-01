@@ -4,19 +4,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%;
-    padding: 0.5em;
     border: 1px solid lightgrey;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 3px 2px 5px lightgrey;
 }
 
 .recipeTitle {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
 }
 
 .recipeImg {
-    width: 70%;
+    width: 100%;
 }
 
 .recipeBtn {
@@ -26,8 +27,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border: none;
-    background: lightblue;
+    background: green;
     opacity: 0.7;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    color: white;
 }
 
 .recipeBtn:hover {
